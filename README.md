@@ -5,5 +5,5 @@ Teoria de Sistemas Distribuidos (21-22)  Alguma matéria referente à UC de Sist
 
 ## Programação Concorrente
 
-0. 
-1. 
+0. [Threads](./threads.md)
+1. [Partilha de memória e condições de corrida ("race conditions")](./race_conditions.md)
