@@ -3,6 +3,5 @@ Teoria de Sistemas Distribuidos (21-22)  Alguma matéria referente à UC de Sist
 
 # Índice:
 
-0. [Conceitos Básicos](./ConceitosBasicos.md)
-1. [Arquiteturas de Sistemas Distribuídos](./Arquiteturas.md)
-2. [Threads](./Thread.md)
+## Programação Concorrente
+0. [Threads](./Thread.md)
