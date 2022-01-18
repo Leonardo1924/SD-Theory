@@ -12,6 +12,26 @@ Sistemas operativos mais modernos extenderam o conceito de processo de modo a pe
 ## Processos singulares e em multithreading
 
 `Single-threaded` é a abordagem tradicional de uma única thread de execução por processo, em que o conceito de thread não é reconhecido.
+  Pode ser usada em:
+    -> Protocolos de comunicação connection-less
+    -> Meta - Servers
+  
+ `Thread-per-connection` 
+      -> Adequado para clientes single-threaded
+      -> Adequado para pedidos rápidos e non-blocking.
+ 
+ `Thread-per-request`
+      -> Modelo geral para pedidos multi-threaded e de longa duração
+      -> Pedidos são respondidos numa ordem arbitrária (necessita de identificadores).
+      -> Overhead adicional para cada pedido.
+        -> Criação de uma nova thread
+        -> troca de contexto e sincronização para entregar um pedido.
+ 
+ `Thread Pool`
+     -> Similar ao thread-per-request, mas ...
+        -> Pedidos são armazenados numa queue através de um buffer
+        -> Reduz o overhead dos pedidos reutilizando threads.
+        -> Fornece um mecanismo de comntrolo de admissão para restringir a quantidade de recursos utilizados no servidor.
 
 `Multithreading` refere-se à habilidade de um sistema operativo suportar múltiplos caminhos simultâneos de execução dentro de um único processo.
 
