@@ -16,7 +16,7 @@ Problema: Incrementação do value não é atómica, pois decompõem-se em
 Iremos perceber porque é que o valor do contador pode não refletir o número de incrementos!
 
 Analisando o código percebemos que existe uma condição de corrida ("race condition") sobre o `value`:
-Existem operações simultâneas de leitura/escritwa sobre o mesmo item de memória partilhada em que pelo menos uma das operações é uma escrita.
+Existem operações simultâneas de leitura/escrita sobre o mesmo item de memória partilhada em que pelo menos uma das operações é uma escrita.
 
 O incremento do valor torna-se então um exemplo de uma secção crítica, isto é , uma região de código onde no máximo uma thread deverá estar ativa.
 
