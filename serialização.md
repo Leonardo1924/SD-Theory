@@ -37,3 +37,16 @@ Java oferece meios para o programador personalizar a serialização.
 
 Exemplo é o uso da palavra-chave `transient` que serve para informar que uma variável não deve ser serializada
   - Arquivos ou sockets
+
+## SERIALIZAÇÃO/MARSHALLING DE OBJECTOS EM JAVA
+
+Permite codificar/descoficar grafos de objectos
+    Detecta e preserva ciclos pois incorpora a identidade dos objectos no grafo
+
+Adaptável em cada classe (os métodos responsáveis podem ser redefinidos) 
+
+Os objectos devem ser serializáveis
+
+Os campos static e transient não são serializados.
+
+Usa reflection – permite obter informação sobre os tipos em runtime
