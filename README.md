@@ -18,3 +18,5 @@ Teoria de Sistemas Distribuidos (21-22)  Alguma matéria referente à UC de Sist
 10. [Tempo e Exclusão mútua](./timeandexclusao.md)
 11. [Acordo](./acord.md)
 12. [MultiCast](./multicast.md)
+
+Parte desta matéria veio de uns resumos feitos por [Francisco Neves](./https://github.com/franl08) podem consultar o resumo [aqui](./) para mais info
