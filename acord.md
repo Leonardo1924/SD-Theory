@@ -93,6 +93,11 @@ Aplicações do Consenso
   Comunicação de grupo: Acordo em processos operacionais que recebem cada mensagem
     -> A decisão é da responsabilidade dos membros do grupo e as mensagens são vistas por todos os participantes.
     
-    
-        
+   Características transversais da Comunicação de grupo:
+      - O alvo das mensagens é o grupo, designado através de um endereço/identificador único;
+      - O emissor pode ou não pertencer ao grupo;
+      - A composição do grupo é dinâmica, não necessariamente visível
+      - A filiação evolui de forma independente dos emissores
+      
+
 
